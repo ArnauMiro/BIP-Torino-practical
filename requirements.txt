@@ -3,7 +3,7 @@ scipy>=1.10
 matplotlib>=3.7
 neuralfoil>=0.3
 torch>=2.0
-pyLowOrder[NN]>=3.2.8
+pyLowOrder[NN]
 aerosandbox>=4.2
 gymnasium>=1.1.1
 stable_baselines3>=2.3
