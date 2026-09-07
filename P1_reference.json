@@ -1,0 +1,4066 @@
+{
+  "tag": "reference",
+  "budget": 2000,
+  "spent": 2000,
+  "remaining": 0,
+  "model_size": "medium",
+  "n_points": 161,
+  "Re": 3000000.0,
+  "mach": 0.0,
+  "clamp": {
+    "m": [
+      0.0,
+      6.0
+    ],
+    "p": [
+      0.2,
+      0.7
+    ],
+    "t": [
+      8.0,
+      18.0
+    ],
+    "alpha": [
+      0.0,
+      10.0
+    ]
+  },
+  "columns": [
+    "m [%]",
+    "p [-]",
+    "t [%]",
+    "alpha [deg]"
+  ],
+  "n_rows": 2000,
+  "n_geometries": 400,
+  "campaign_card": {
+    "group": "REFERENCE (instructor)",
+    "n_shapes": 400,
+    "n_alpha": 5,
+    "bounds": {
+      "m": [
+        0.5,
+        5.5
+      ],
+      "p": [
+        0.25,
+        0.65
+      ],
+      "t": [
+        9.0,
+        17.0
+      ],
+      "alpha": [
+        0.0,
+        10.0
+      ]
+    },
+    "sampler": "lhs",
+    "alpha_rule": "5 uniform angles, identical for every shape",
+    "expected_strengths": "even in-envelope coverage; clean split by airfoil",
+    "expected_weaknesses": "inset bounds hurt geometric extrapolation; too few angles to resolve the stall bend",
+    "note": "Fallback only. Competent, not brilliant. Flag groups that use it."
+  },
+  "log": [
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.5025911038828489,
+      "p": 0.544421706307779,
+      "t": 0.979,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1995
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.5149492528335137,
+      "p": 0.2904395420473324,
+      "t": 0.981,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1990
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.5359667353070177,
+      "p": 0.4835632569046156,
+      "t": 0.983,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1985
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.5395089625782292,
+      "p": 0.6142841074027803,
+      "t": 0.985,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1980
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.555494345597007,
+      "p": 0.3373455130521857,
+      "t": 0.988,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1975
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.5629283298164487,
+      "p": 0.4274318792406099,
+      "t": 0.99,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1970
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.5767823999035425,
+      "p": 0.5390579538608482,
+      "t": 0.992,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1965
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.59787681316967,
+      "p": 0.2876638397784626,
+      "t": 0.994,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1960
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.6088865271979303,
+      "p": 0.39029553087404734,
+      "t": 0.997,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1955
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.6168378718500932,
+      "p": 0.5092132639786077,
+      "t": 0.999,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1950
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.6310127012437785,
+      "p": 0.5338339654119608,
+      "t": 1.001,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1945
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.6415582835373951,
+      "p": 0.25791439205346334,
+      "t": 1.003,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1940
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.6547207049268232,
+      "p": 0.33323828717091314,
+      "t": 1.005,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1935
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.6645366544869199,
+      "p": 0.5432198231366662,
+      "t": 1.008,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1930
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.6864053602621015,
+      "p": 0.3176428813381884,
+      "t": 1.01,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1925
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.6976353615290584,
+      "p": 0.5196242694376508,
+      "t": 1.012,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1920
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.701666386671058,
+      "p": 0.4659640162969476,
+      "t": 1.014,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1915
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.7125057249527124,
+      "p": 0.5232899984077295,
+      "t": 1.016,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1910
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.7325397040044626,
+      "p": 0.3952443096941092,
+      "t": 1.019,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1905
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.743890922622567,
+      "p": 0.5156138414090035,
+      "t": 1.021,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1900
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.7542542914544236,
+      "p": 0.5530827602337662,
+      "t": 1.023,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1895
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.7626443974920132,
+      "p": 0.5312913608622309,
+      "t": 1.025,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1890
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.7796091310689381,
+      "p": 0.5724969724465897,
+      "t": 1.027,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1885
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.7996119851452859,
+      "p": 0.44787229965221453,
+      "t": 1.029,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1880
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.8052983051514445,
+      "p": 0.35215648361037843,
+      "t": 1.032,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1875
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.8215029880513333,
+      "p": 0.5681093843627774,
+      "t": 1.034,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1870
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.8353232876262262,
+      "p": 0.6205848751146692,
+      "t": 1.036,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1865
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.841934378317196,
+      "p": 0.5623040226375473,
+      "t": 1.038,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1860
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.854745409315099,
+      "p": 0.297311255723467,
+      "t": 1.04,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1855
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.8702120053563694,
+      "p": 0.5799596870553212,
+      "t": 1.042,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1850
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.8774580531057996,
+      "p": 0.2806802819594838,
+      "t": 1.044,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1845
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.8971661847144059,
+      "p": 0.547333453676476,
+      "t": 1.047,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1840
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.9117397484078789,
+      "p": 0.40595434043363254,
+      "t": 1.049,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1835
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.9242346428056349,
+      "p": 0.5673645103030878,
+      "t": 1.051,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1830
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.9266357181233416,
+      "p": 0.35662885215591617,
+      "t": 1.053,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1825
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.9472059856306371,
+      "p": 0.28844244160320953,
+      "t": 1.055,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1820
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.9536326804913919,
+      "p": 0.41614183652977743,
+      "t": 1.057,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1815
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.9718003900236826,
+      "p": 0.4019838027620408,
+      "t": 1.06,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1810
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.9846409081158445,
+      "p": 0.5543685402818885,
+      "t": 1.062,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1805
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 0.9888359727713203,
+      "p": 0.30467638151902693,
+      "t": 1.064,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1800
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.0023011046530563,
+      "p": 0.3097012097327738,
+      "t": 1.066,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1795
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.0233483417073839,
+      "p": 0.6150688399950619,
+      "t": 1.068,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1790
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.0346563720880102,
+      "p": 0.4041768975344551,
+      "t": 1.07,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1785
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.0448833182407316,
+      "p": 0.5496450076627839,
+      "t": 1.072,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1780
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.0506970620842726,
+      "p": 0.29412727391061544,
+      "t": 1.074,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1775
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.0666247633715238,
+      "p": 0.2819964162247178,
+      "t": 1.076,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1770
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.084919695288457,
+      "p": 0.2694363828073846,
+      "t": 1.079,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1765
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.0906485559621786,
+      "p": 0.5284618236371217,
+      "t": 1.081,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1760
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.1084207771841368,
+      "p": 0.5932279645317635,
+      "t": 1.083,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1755
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.1170902077542175,
+      "p": 0.5895321029867492,
+      "t": 1.085,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1750
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.1316133961725332,
+      "p": 0.28487832219121434,
+      "t": 1.087,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1745
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.1490529808842536,
+      "p": 0.555648996191834,
+      "t": 1.089,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1740
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.1605844765304296,
+      "p": 0.3463912018585156,
+      "t": 1.091,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1735
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.1736977730371418,
+      "p": 0.5025698639124272,
+      "t": 1.093,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1730
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.1804470741790993,
+      "p": 0.38709826426387284,
+      "t": 1.096,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1725
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.1998975389302382,
+      "p": 0.37718499200011185,
+      "t": 1.098,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1720
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.2107930429977452,
+      "p": 0.6024770872598672,
+      "t": 1.1,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1715
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.22005297329232,
+      "p": 0.5719268441558618,
+      "t": 1.102,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1710
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.2322394728209942,
+      "p": 0.26805889863698773,
+      "t": 1.104,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1705
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.2496002462313334,
+      "p": 0.609521975198754,
+      "t": 1.106,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1700
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.2599176781530397,
+      "p": 0.4355884453584381,
+      "t": 1.108,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1695
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.264853776590507,
+      "p": 0.5462401417450756,
+      "t": 1.11,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1690
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.2793145793832794,
+      "p": 0.5378559987288987,
+      "t": 1.113,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1685
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.295090971456924,
+      "p": 0.5269108240419995,
+      "t": 1.115,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1680
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.304909476299739,
+      "p": 0.6393843902165329,
+      "t": 1.117,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1675
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.3225198576198605,
+      "p": 0.5358146310580689,
+      "t": 1.119,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1670
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.3281686549840885,
+      "p": 0.45338878869690613,
+      "t": 1.121,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1665
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.346928219747255,
+      "p": 0.3587282503548578,
+      "t": 1.123,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1660
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.357401183930493,
+      "p": 0.46178722910664655,
+      "t": 1.125,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1655
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.3680518566900797,
+      "p": 0.3693239380409685,
+      "t": 1.128,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1650
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.3831522371866756,
+      "p": 0.5851125137518755,
+      "t": 1.13,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1645
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.3981602736097134,
+      "p": 0.2708391143725975,
+      "t": 1.132,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1640
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.4046541735366858,
+      "p": 0.550323594930727,
+      "t": 1.134,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1635
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.422963083426089,
+      "p": 0.6197156459222822,
+      "t": 1.136,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1630
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.4251599337663303,
+      "p": 0.6361039251458838,
+      "t": 1.138,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1625
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.4407154303784995,
+      "p": 0.4321594645045099,
+      "t": 1.14,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1620
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.4526148647139938,
+      "p": 0.5271352491767467,
+      "t": 1.143,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1615
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.4639259199995798,
+      "p": 0.37969127724095586,
+      "t": 1.145,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1610
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.4817878564859877,
+      "p": 0.4020082868074417,
+      "t": 1.147,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1605
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.4923327155268837,
+      "p": 0.4566262229785097,
+      "t": 1.149,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1600
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.5054876046141668,
+      "p": 0.5824597013534228,
+      "t": 1.151,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1595
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.5237260459101254,
+      "p": 0.6460317324113684,
+      "t": 1.153,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1590
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.5324284474572285,
+      "p": 0.6187133635286759,
+      "t": 1.155,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1585
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.5497460733008876,
+      "p": 0.4089166062501697,
+      "t": 1.158,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1580
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.5601805386925507,
+      "p": 0.30874821138941333,
+      "t": 1.16,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1575
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.5734379810988806,
+      "p": 0.40717169473831616,
+      "t": 1.162,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1570
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.5866912103192083,
+      "p": 0.4208078034800661,
+      "t": 1.164,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1565
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.5924146744112266,
+      "p": 0.6342571127995544,
+      "t": 1.166,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1560
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.6116073805279054,
+      "p": 0.277691559432961,
+      "t": 1.168,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1555
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.61911753766111,
+      "p": 0.29190309407338594,
+      "t": 1.17,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1550
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.6373927515892341,
+      "p": 0.3572809572446993,
+      "t": 1.172,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1545
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.6418528848019531,
+      "p": 0.5290120094323383,
+      "t": 1.175,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1540
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.660938760715064,
+      "p": 0.5752711663822756,
+      "t": 1.177,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1535
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.674103627706565,
+      "p": 0.5160282684887412,
+      "t": 1.179,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1530
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.678380154778861,
+      "p": 0.6440195060231906,
+      "t": 1.181,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1525
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.6946229379550815,
+      "p": 0.5967573415417928,
+      "t": 1.183,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1520
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.7060492815170218,
+      "p": 0.5839965311661823,
+      "t": 1.185,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1515
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.719923783121063,
+      "p": 0.5733371601323065,
+      "t": 1.187,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1510
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.736498845286977,
+      "p": 0.49799323501002807,
+      "t": 1.19,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1505
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.7493788256334475,
+      "p": 0.5067881260077027,
+      "t": 1.192,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1500
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.7589887555426402,
+      "p": 0.3849836379466248,
+      "t": 1.194,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1495
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.7697563804203904,
+      "p": 0.428392930504382,
+      "t": 1.196,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1490
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.7872168879262826,
+      "p": 0.34856910791462414,
+      "t": 1.198,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1485
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.7907106963164574,
+      "p": 0.26484370993610856,
+      "t": 1.2,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1480
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.8008553942488221,
+      "p": 0.32240539199960205,
+      "t": 1.202,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1475
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.8139017150720154,
+      "p": 0.2508635642925691,
+      "t": 1.204,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1470
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.8371270415514804,
+      "p": 0.4998776028263053,
+      "t": 1.206,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1465
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.8401934107660938,
+      "p": 0.5111456517780232,
+      "t": 1.209,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1460
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.8606010132644173,
+      "p": 0.41796740898757234,
+      "t": 1.211,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1455
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.8697151056107577,
+      "p": 0.43906563870268234,
+      "t": 1.213,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1450
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.881059903068618,
+      "p": 0.5666336470159439,
+      "t": 1.215,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1445
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.8914834627175556,
+      "p": 0.3356319113563585,
+      "t": 1.217,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1440
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.9073037719891563,
+      "p": 0.513625491828015,
+      "t": 1.219,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1435
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.9142005528987711,
+      "p": 0.5019431650535208,
+      "t": 1.221,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1430
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.9258991485488004,
+      "p": 0.32106920648421716,
+      "t": 1.223,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1425
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.9391114303605654,
+      "p": 0.4704177372782421,
+      "t": 1.225,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1420
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.9500625239708753,
+      "p": 0.4586116878135855,
+      "t": 1.228,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1415
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.9715467404442448,
+      "p": 0.510307466480388,
+      "t": 1.23,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1410
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.9863710223106366,
+      "p": 0.6481023791570882,
+      "t": 1.232,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1405
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 1.9930324374228532,
+      "p": 0.5613399991163199,
+      "t": 1.234,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1400
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.0088479464907376,
+      "p": 0.2617921974769851,
+      "t": 1.236,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1395
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.017129529024771,
+      "p": 0.4423100219351652,
+      "t": 1.238,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1390
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.0319910288237493,
+      "p": 0.45077444876706463,
+      "t": 1.24,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1385
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.0495301076082324,
+      "p": 0.6083488031742681,
+      "t": 1.242,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1380
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.051721765496241,
+      "p": 0.3145016749850966,
+      "t": 1.245,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1375
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.0646525294993276,
+      "p": 0.5802007026910758,
+      "t": 1.247,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1370
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.079639357157355,
+      "p": 0.6472574512018003,
+      "t": 1.249,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1365
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.0959097817722947,
+      "p": 0.5247515695828995,
+      "t": 1.251,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1360
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.1002758527078393,
+      "p": 0.6170899916533421,
+      "t": 1.253,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1355
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.1233720250702763,
+      "p": 0.5044218434046235,
+      "t": 1.256,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1350
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.131786782694909,
+      "p": 0.2996635978400277,
+      "t": 1.258,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1345
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.1385337878942074,
+      "p": 0.5584277696267546,
+      "t": 1.26,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1340
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.1611003384716705,
+      "p": 0.2752279174485324,
+      "t": 1.262,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1335
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.164281708952846,
+      "p": 0.6166552463105524,
+      "t": 1.264,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1330
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.1750229003860895,
+      "p": 0.4196700865639019,
+      "t": 1.267,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1325
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.198035564747709,
+      "p": 0.6219809351153589,
+      "t": 1.269,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1320
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.206909378609236,
+      "p": 0.6292560795823617,
+      "t": 1.271,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1315
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.2153607836725993,
+      "p": 0.5529846130899474,
+      "t": 1.273,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1310
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.2260771269336024,
+      "p": 0.2636545947246634,
+      "t": 1.275,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1305
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.239684704314862,
+      "p": 0.35545893292583575,
+      "t": 1.277,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1300
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.2587638275931345,
+      "p": 0.5224658522970624,
+      "t": 1.28,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1295
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.2669502945191464,
+      "p": 0.25948232048533154,
+      "t": 1.282,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1290
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.2826736236460037,
+      "p": 0.26679477627102083,
+      "t": 1.284,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1285
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.2882690255259694,
+      "p": 0.578156261473797,
+      "t": 1.286,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1280
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.3074639113327033,
+      "p": 0.40076467784845404,
+      "t": 1.288,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1275
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.3216744556097373,
+      "p": 0.2528021936503548,
+      "t": 1.29,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1270
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.3354089789460932,
+      "p": 0.4905310098661618,
+      "t": 1.292,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1265
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.3494874360229305,
+      "p": 0.3891364496577345,
+      "t": 1.295,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1260
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.356055987812575,
+      "p": 0.6047107478608342,
+      "t": 1.297,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1255
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.369081012198996,
+      "p": 0.2862301894980125,
+      "t": 1.299,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1250
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.3813302469114506,
+      "p": 0.3768836291337353,
+      "t": 1.301,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1245
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.387963691356,
+      "p": 0.3687439878875997,
+      "t": 1.303,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1240
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.403295158152084,
+      "p": 0.5210100458560525,
+      "t": 1.305,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1235
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.4150753015941824,
+      "p": 0.5701068639636653,
+      "t": 1.308,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1230
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.4253469962219985,
+      "p": 0.41214788988837664,
+      "t": 1.31,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1225
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.44265760053559,
+      "p": 0.5182128672085892,
+      "t": 1.312,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1220
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.4622817282601965,
+      "p": 0.48249623752530935,
+      "t": 1.314,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1215
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.465106845189181,
+      "p": 0.2981118075933784,
+      "t": 1.316,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1210
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.480967969380684,
+      "p": 0.37871804464906356,
+      "t": 1.318,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1205
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.490277140307861,
+      "p": 0.28521042861388135,
+      "t": 1.321,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1200
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.509726679633734,
+      "p": 0.45211389928536805,
+      "t": 1.323,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1195
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.5161337930608005,
+      "p": 0.33218568720492125,
+      "t": 1.325,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1190
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.5285070793912627,
+      "p": 0.5123372057776638,
+      "t": 1.327,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1185
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.544529950807573,
+      "p": 0.3276647729591752,
+      "t": 1.329,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1180
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.5615064505913097,
+      "p": 0.6433825555651183,
+      "t": 1.332,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1175
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.5724529652856023,
+      "p": 0.6035069900686016,
+      "t": 1.334,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1170
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.5791252309767367,
+      "p": 0.4579175535836083,
+      "t": 1.336,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1165
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.596244142636846,
+      "p": 0.5982840095524742,
+      "t": 1.338,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1160
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.611918736973709,
+      "p": 0.37222334044254196,
+      "t": 1.34,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1155
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.617947126459197,
+      "p": 0.6410948002599235,
+      "t": 1.343,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1150
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.636437864271196,
+      "p": 0.27151912230854686,
+      "t": 1.345,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1145
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.6413303383766764,
+      "p": 0.4936166750495936,
+      "t": 1.347,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1140
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.654561470181294,
+      "p": 0.43378272465181467,
+      "t": 1.349,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1135
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.665339253829365,
+      "p": 0.4362428988540822,
+      "t": 1.352,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1130
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.681884402647547,
+      "p": 0.2555276642896861,
+      "t": 1.354,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1125
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.693084289904432,
+      "p": 0.3824670751785282,
+      "t": 1.356,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1120
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.701408137976218,
+      "p": 0.5577858959023165,
+      "t": 1.358,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1115
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.7143474688197227,
+      "p": 0.5872625852497764,
+      "t": 1.36,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1110
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.7343849026366196,
+      "p": 0.536221021600976,
+      "t": 1.362,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1105
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.746206720997738,
+      "p": 0.26242947985780024,
+      "t": 1.364,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1100
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.7615061781918855,
+      "p": 0.5748248208504207,
+      "t": 1.367,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1095
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.770757591767304,
+      "p": 0.4107089818622673,
+      "t": 1.369,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1090
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.7808804956012017,
+      "p": 0.3934480826574349,
+      "t": 1.371,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1085
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.7903698230014626,
+      "p": 0.3865927638354988,
+      "t": 1.373,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1080
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.8036168177877476,
+      "p": 0.3137492766963971,
+      "t": 1.375,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1075
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.8144437271917537,
+      "p": 0.3313810944908683,
+      "t": 1.377,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1070
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.8265928424293607,
+      "p": 0.39711483004884984,
+      "t": 1.38,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1065
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.844122666374409,
+      "p": 0.6499344475325755,
+      "t": 1.382,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1060
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.8534647304117,
+      "p": 0.4912213974678731,
+      "t": 1.384,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1055
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.8663074252674803,
+      "p": 0.4375821258170187,
+      "t": 1.386,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1050
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.883978437219346,
+      "p": 0.4547992412999358,
+      "t": 1.388,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1045
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.8983293870144657,
+      "p": 0.3268975492638512,
+      "t": 1.39,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1040
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.902848955575027,
+      "p": 0.6239651877498817,
+      "t": 1.392,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1035
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.922401466152371,
+      "p": 0.2769773322697675,
+      "t": 1.394,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1030
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.926887283371774,
+      "p": 0.6266867717932544,
+      "t": 1.397,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1025
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.9415124799666437,
+      "p": 0.6124272280091377,
+      "t": 1.399,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1020
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.9516433817933616,
+      "p": 0.6288865443066833,
+      "t": 1.401,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1015
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.964746493317934,
+      "p": 0.37525291177337283,
+      "t": 1.403,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1010
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.977000687403639,
+      "p": 0.48151038831472454,
+      "t": 1.405,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1005
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 2.9952546891898515,
+      "p": 0.34792229628468163,
+      "t": 1.407,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 1000
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.0061428710297666,
+      "p": 0.5605459904785176,
+      "t": 1.409,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 995
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.0186611028544426,
+      "p": 0.6009884463101816,
+      "t": 1.412,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 990
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.032408674616437,
+      "p": 0.6382781801093846,
+      "t": 1.414,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 985
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.0439454378168245,
+      "p": 0.6064707302024954,
+      "t": 1.416,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 980
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.058420246201696,
+      "p": 0.45114231403065386,
+      "t": 1.418,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 975
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.0706266604454524,
+      "p": 0.4446620562449429,
+      "t": 1.42,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 970
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.079324465947574,
+      "p": 0.48502135065956875,
+      "t": 1.422,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 965
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.0931890793495267,
+      "p": 0.6408141322249857,
+      "t": 1.424,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 960
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.10329797020551,
+      "p": 0.28286900459740266,
+      "t": 1.427,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 955
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.1248595646433577,
+      "p": 0.3703368601715127,
+      "t": 1.429,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 950
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.1342281323945564,
+      "p": 0.590443979623441,
+      "t": 1.431,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 945
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.141007092553729,
+      "p": 0.4184470371668457,
+      "t": 1.433,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 940
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.156758991018296,
+      "p": 0.2655245585465157,
+      "t": 1.435,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 935
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.1644706298005887,
+      "p": 0.5203234758414161,
+      "t": 1.437,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 930
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.177966242082065,
+      "p": 0.5847108854847181,
+      "t": 1.44,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 925
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.1890754301550213,
+      "p": 0.3453440010024765,
+      "t": 1.442,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 920
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.2115004600011954,
+      "p": 0.44630007746849176,
+      "t": 1.444,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 915
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.2152614838101967,
+      "p": 0.2969743866862053,
+      "t": 1.446,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 910
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.2259980938726875,
+      "p": 0.5340137782952039,
+      "t": 1.449,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 905
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.2455538548739216,
+      "p": 0.6011659976452302,
+      "t": 1.451,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 900
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.2612874572323394,
+      "p": 0.5658227809082066,
+      "t": 1.453,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 895
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.262657401416932,
+      "p": 0.425825314751347,
+      "t": 1.455,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 890
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.277468648084941,
+      "p": 0.3634965596327197,
+      "t": 1.457,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 885
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.293335157191355,
+      "p": 0.4388924191352521,
+      "t": 1.459,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 880
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.3036610481094164,
+      "p": 0.5993527379248045,
+      "t": 1.462,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 875
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.3154633074108415,
+      "p": 0.5885938274435085,
+      "t": 1.464,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 870
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.325343078979237,
+      "p": 0.4748570701552882,
+      "t": 1.466,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 865
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.338244938214852,
+      "p": 0.42199257922639033,
+      "t": 1.468,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 860
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.3616941869840318,
+      "p": 0.32885341499774445,
+      "t": 1.47,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 855
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.3691094403885096,
+      "p": 0.4433934250475966,
+      "t": 1.472,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 850
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.378112051973428,
+      "p": 0.2565051753592498,
+      "t": 1.474,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 845
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.392011095786728,
+      "p": 0.46985089904943267,
+      "t": 1.477,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 840
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.4124468241446797,
+      "p": 0.3072945732935182,
+      "t": 1.479,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 835
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.4239272067364723,
+      "p": 0.28347955643904854,
+      "t": 1.481,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 830
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.430762553165936,
+      "p": 0.3186726387937543,
+      "t": 1.483,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 825
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.446670581442095,
+      "p": 0.25159824065443925,
+      "t": 1.485,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 820
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.4500979304790453,
+      "p": 0.3386864223244723,
+      "t": 1.488,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 815
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.469101676222951,
+      "p": 0.5647726768299437,
+      "t": 1.49,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 810
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.4844268196850567,
+      "p": 0.6119508577102164,
+      "t": 1.492,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 805
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.4973083900753164,
+      "p": 0.47571923954704953,
+      "t": 1.494,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 800
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.5121473791886118,
+      "p": 0.3305217241296145,
+      "t": 1.496,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 795
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.517349187607645,
+      "p": 0.33908843366069535,
+      "t": 1.499,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 790
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.5343205879063957,
+      "p": 0.29216956259798793,
+      "t": 1.501,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 785
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.548177211009009,
+      "p": 0.3735794087872919,
+      "t": 1.503,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 780
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.558591038648641,
+      "p": 0.278855179142324,
+      "t": 1.505,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 775
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.571259969823164,
+      "p": 0.6307762448762168,
+      "t": 1.507,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 770
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.582034395670112,
+      "p": 0.3604741229655147,
+      "t": 1.509,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 765
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.5906829148334247,
+      "p": 0.6135506344544028,
+      "t": 1.512,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 760
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.610164463765914,
+      "p": 0.39857119784013506,
+      "t": 1.514,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 755
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.624878969246805,
+      "p": 0.4144311832458658,
+      "t": 1.516,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 750
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.625133624092007,
+      "p": 0.34913709259258185,
+      "t": 1.518,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 745
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.638976390003449,
+      "p": 0.36161271996814515,
+      "t": 1.52,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 740
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.6526454692244963,
+      "p": 0.34028563453933053,
+      "t": 1.522,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 735
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.671579464392431,
+      "p": 0.44903080148310814,
+      "t": 1.524,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 730
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.681209202670151,
+      "p": 0.49603736264408993,
+      "t": 1.526,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 725
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.6900768541342557,
+      "p": 0.6224584522121606,
+      "t": 1.529,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 720
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.7008307612178886,
+      "p": 0.31216097065970483,
+      "t": 1.531,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 715
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.720007679821117,
+      "p": 0.5051767856914797,
+      "t": 1.533,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 710
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.7276948402312406,
+      "p": 0.3815373484742014,
+      "t": 1.535,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 705
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.7470629565498683,
+      "p": 0.42951551756132667,
+      "t": 1.538,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 700
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.752080622073476,
+      "p": 0.3882786802867296,
+      "t": 1.54,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 695
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.768751432170927,
+      "p": 0.3007549425064267,
+      "t": 1.542,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 690
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.780664662997001,
+      "p": 0.254289774864114,
+      "t": 1.545,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 685
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.7990146958358575,
+      "p": 0.5007322508867644,
+      "t": 1.547,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 680
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.8101720911032793,
+      "p": 0.3166734949977982,
+      "t": 1.55,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 675
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.817210781687643,
+      "p": 0.467296484728412,
+      "t": 1.553,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 670
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.8269504116127315,
+      "p": 0.4268161977538293,
+      "t": 1.555,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 665
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.840909550899842,
+      "p": 0.32478102015253574,
+      "t": 1.557,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 660
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.8563879460981494,
+      "p": 0.5563484049484302,
+      "t": 1.559,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 655
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.86391540338715,
+      "p": 0.5592892926987654,
+      "t": 1.562,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 650
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.8780948266696313,
+      "p": 0.42443369791563423,
+      "t": 1.564,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 645
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.899680933146904,
+      "p": 0.5322407978178054,
+      "t": 1.566,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 640
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.9070213285085345,
+      "p": 0.6244436328113843,
+      "t": 1.568,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 635
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.921118852337271,
+      "p": 0.39271110649755714,
+      "t": 1.57,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 630
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.9352199267408086,
+      "p": 0.274601835335848,
+      "t": 1.572,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 625
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.939711505663422,
+      "p": 0.6310656741380865,
+      "t": 1.575,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 620
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.9538808044501805,
+      "p": 0.5866007766339372,
+      "t": 1.577,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 615
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.970118413987677,
+      "p": 0.34437598004832876,
+      "t": 1.579,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 610
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.9831411357473243,
+      "p": 0.3117589003776343,
+      "t": 1.581,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 605
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 3.9984140153522985,
+      "p": 0.5811657715728435,
+      "t": 1.583,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 600
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.005630335481345,
+      "p": 0.4956126286636169,
+      "t": 1.585,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 595
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.024484904013193,
+      "p": 0.374952291165504,
+      "t": 1.588,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 590
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.030125222583928,
+      "p": 0.5147561715341449,
+      "t": 1.59,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 585
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.0495241624764695,
+      "p": 0.5928771977291101,
+      "t": 1.592,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 580
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.055095005668498,
+      "p": 0.26085814965528537,
+      "t": 1.594,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 575
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.072497131434268,
+      "p": 0.32916514498215027,
+      "t": 1.596,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 570
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.086185715948661,
+      "p": 0.4846964001878638,
+      "t": 1.599,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 565
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.089632381302385,
+      "p": 0.5406086290445057,
+      "t": 1.601,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 560
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.100145594574888,
+      "p": 0.4793349967424657,
+      "t": 1.603,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 555
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.121692058909505,
+      "p": 0.471348019194579,
+      "t": 1.605,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 550
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.136749816096216,
+      "p": 0.6274492227335331,
+      "t": 1.607,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 545
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.140775213728616,
+      "p": 0.27244127995333184,
+      "t": 1.61,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 540
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.151044955681767,
+      "p": 0.6329800959718068,
+      "t": 1.612,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 535
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.174718026637319,
+      "p": 0.5037159648234548,
+      "t": 1.614,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 530
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.182710970092048,
+      "p": 0.2958699732458743,
+      "t": 1.616,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 525
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.192144404687406,
+      "p": 0.2799805468355256,
+      "t": 1.618,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 520
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.206065378497758,
+      "p": 0.36739325704459286,
+      "t": 1.62,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 515
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.222699645180427,
+      "p": 0.28958997526081104,
+      "t": 1.623,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 510
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.232925557446333,
+      "p": 0.6079683648782556,
+      "t": 1.625,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 505
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.244830599283453,
+      "p": 0.478119330346379,
+      "t": 1.627,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 500
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.262331923180735,
+      "p": 0.36620796015354456,
+      "t": 1.629,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 495
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.262836702248,
+      "p": 0.5458516541937127,
+      "t": 1.631,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 490
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.279169289012567,
+      "p": 0.406239243298955,
+      "t": 1.633,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 485
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.29085507843938,
+      "p": 0.32539036622977224,
+      "t": 1.636,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 480
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.310005763524705,
+      "p": 0.47396701031973604,
+      "t": 1.638,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 475
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.315490933135232,
+      "p": 0.41177870363429603,
+      "t": 1.64,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 470
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.333546651694654,
+      "p": 0.38548765742372637,
+      "t": 1.642,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 465
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.338790213394362,
+      "p": 0.5516217746051619,
+      "t": 1.644,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 460
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.3562839777776,
+      "p": 0.44032556194247846,
+      "t": 1.647,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 455
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.370573952331988,
+      "p": 0.441827803439528,
+      "t": 1.649,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 450
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.378770846629269,
+      "p": 0.43101910694537504,
+      "t": 1.651,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 445
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.395242906016472,
+      "p": 0.45573109527300526,
+      "t": 1.653,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 440
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.411594153704037,
+      "p": 0.5081495862751226,
+      "t": 1.655,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 435
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.419386903920072,
+      "p": 0.6055167055646162,
+      "t": 1.657,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 430
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.436863931410661,
+      "p": 0.43492245658453926,
+      "t": 1.659,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 425
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.44378518371447,
+      "p": 0.3597097768508283,
+      "t": 1.662,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 420
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.462404138851028,
+      "p": 0.36248217589774306,
+      "t": 1.664,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 415
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.468453848042174,
+      "p": 0.5776015300049271,
+      "t": 1.666,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 410
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.487376855825232,
+      "p": 0.5173070284241756,
+      "t": 1.668,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 405
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.494344971099784,
+      "p": 0.5913432270143122,
+      "t": 1.67,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 400
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.507447319496497,
+      "p": 0.47678837081717107,
+      "t": 1.673,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 395
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.52145911613731,
+      "p": 0.46341700709326783,
+      "t": 1.675,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 390
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.530915451006364,
+      "p": 0.4868151910703914,
+      "t": 1.677,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 385
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.548644278086267,
+      "p": 0.5384212077086115,
+      "t": 1.68,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 380
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.553673181084461,
+      "p": 0.36401121699197936,
+      "t": 1.682,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 375
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.56548084268617,
+      "p": 0.3234159385072289,
+      "t": 1.685,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 370
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.5810886240532245,
+      "p": 0.5973982914957667,
+      "t": 1.688,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 365
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.59088745722735,
+      "p": 0.3030176668838604,
+      "t": 1.69,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 360
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.601938603774064,
+      "p": 0.3059223943872251,
+      "t": 1.692,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 355
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.622273604913763,
+      "p": 0.3547971671395967,
+      "t": 1.694,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 350
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.626607929147235,
+      "p": 0.5636674730159291,
+      "t": 1.697,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 345
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.642641466532455,
+      "p": 0.6370486327219418,
+      "t": 1.699,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 340
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.650232607414492,
+      "p": 0.49837557139202715,
+      "t": 1.701,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 335
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.668402313017991,
+      "p": 0.5303973184582189,
+      "t": 1.703,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 330
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.67942333091998,
+      "p": 0.4132581314574375,
+      "t": 1.705,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 325
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.693464240147861,
+      "p": 0.5767422702403817,
+      "t": 1.708,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 320
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.710868286985243,
+      "p": 0.460149966036704,
+      "t": 1.71,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 315
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.724427155222809,
+      "p": 0.46608065370332113,
+      "t": 1.712,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 310
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.729606505426135,
+      "p": 0.3438742273000204,
+      "t": 1.714,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 305
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.747684837689759,
+      "p": 0.3416883632886443,
+      "t": 1.716,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 300
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.754636772147599,
+      "p": 0.40965536977221984,
+      "t": 1.718,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 295
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.773146147098746,
+      "p": 0.5942918792622465,
+      "t": 1.72,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 290
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.7840687700459315,
+      "p": 0.3191128048476131,
+      "t": 1.722,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 285
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.788213977197374,
+      "p": 0.4922417558172165,
+      "t": 1.724,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 280
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.801396293606848,
+      "p": 0.3515139686796479,
+      "t": 1.727,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 275
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.818107352958313,
+      "p": 0.4452218964641538,
+      "t": 1.729,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 270
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.827490596933911,
+      "p": 0.4875923901057454,
+      "t": 1.731,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 265
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.849200530229038,
+      "p": 0.3349409463887081,
+      "t": 1.733,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 260
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.860653223335275,
+      "p": 0.5420359964603149,
+      "t": 1.735,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 255
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.8700765058653825,
+      "p": 0.6457734091394076,
+      "t": 1.738,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 250
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.883617324059703,
+      "p": 0.5958878788729589,
+      "t": 1.74,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 245
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.892818004369037,
+      "p": 0.39193904381872985,
+      "t": 1.742,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 240
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.901870117249127,
+      "p": 0.4590232348138398,
+      "t": 1.744,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 235
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.9156498825978625,
+      "p": 0.27367888549464975,
+      "t": 1.746,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 230
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.926556379182318,
+      "p": 0.42285322876587994,
+      "t": 1.749,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 225
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.946713066274884,
+      "p": 0.258587060027999,
+      "t": 1.751,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 220
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.9558264308099,
+      "p": 0.3992236891208361,
+      "t": 1.753,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 215
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.971180643946567,
+      "p": 0.3068004603146251,
+      "t": 1.755,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 210
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.979205473628905,
+      "p": 0.37183020030615394,
+      "t": 1.758,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 205
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 4.997771097992215,
+      "p": 0.3011226084309915,
+      "t": 1.76,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 200
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.001420265247812,
+      "p": 0.4891682431288048,
+      "t": 1.762,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 195
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.019534770043132,
+      "p": 0.4889014319010735,
+      "t": 1.764,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 190
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.036850260451626,
+      "p": 0.36545415412640847,
+      "t": 1.767,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 185
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.0467601441749546,
+      "p": 0.6251370695962,
+      "t": 1.769,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 180
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.0608961209803205,
+      "p": 0.46418587777701936,
+      "t": 1.771,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 175
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.068986423800478,
+      "p": 0.6106365662193186,
+      "t": 1.773,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 170
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.086132753337491,
+      "p": 0.40346618768508646,
+      "t": 1.775,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 165
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.099811418443013,
+      "p": 0.47249856047385325,
+      "t": 1.777,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 160
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.102597988471158,
+      "p": 0.6420113401838468,
+      "t": 1.78,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 155
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.123256129342061,
+      "p": 0.5419676361805656,
+      "t": 1.782,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 150
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.129797602723262,
+      "p": 0.5074369473624101,
+      "t": 1.784,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 145
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.144339219712148,
+      "p": 0.3531776838875279,
+      "t": 1.786,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 140
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.154374832695972,
+      "p": 0.5259262891984181,
+      "t": 1.788,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 135
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.16720044185667,
+      "p": 0.25342526560904804,
+      "t": 1.79,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 130
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.179596096954865,
+      "p": 0.3203218291892313,
+      "t": 1.792,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 125
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.197033691930519,
+      "p": 0.4940345851114022,
+      "t": 1.795,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 120
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.209677189956971,
+      "p": 0.468076411379891,
+      "t": 1.797,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 115
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.220853672253354,
+      "p": 0.31022710816544374,
+      "t": 1.799,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 110
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.226121505041919,
+      "p": 0.39466680669352083,
+      "t": 1.802,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 105
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.243602050459761,
+      "p": 0.44845106511340976,
+      "t": 1.805,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 100
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.254200948277112,
+      "p": 0.4625870062606938,
+      "t": 1.808,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 95
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.273086145249931,
+      "p": 0.2933507308510025,
+      "t": 1.811,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 90
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.278360083480888,
+      "p": 0.48060089428051367,
+      "t": 1.813,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 85
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.293188208466087,
+      "p": 0.39688814063091227,
+      "t": 1.815,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 80
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.300319748170688,
+      "p": 0.6354033965041419,
+      "t": 1.817,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 75
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.320753787500951,
+      "p": 0.4231171277426299,
+      "t": 1.82,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 70
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.331205094139141,
+      "p": 0.5485774478076972,
+      "t": 1.822,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 65
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.342808029206696,
+      "p": 0.2673789440606995,
+      "t": 1.824,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 60
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.35121863402144,
+      "p": 0.5691381909558861,
+      "t": 1.826,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 55
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.365964125527421,
+      "p": 0.3024507347324819,
+      "t": 1.829,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 50
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.38146225693075,
+      "p": 0.4303885095405823,
+      "t": 1.831,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 45
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.398107854896807,
+      "p": 0.38398143199675905,
+      "t": 1.833,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 40
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.410244419769747,
+      "p": 0.3153212579975522,
+      "t": 1.835,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 35
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.422471090300084,
+      "p": 0.33692771813197486,
+      "t": 1.837,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 30
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.432783783659635,
+      "p": 0.4150550509376727,
+      "t": 1.84,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 25
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.441317907362554,
+      "p": 0.34299499672738093,
+      "t": 1.842,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 20
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.458622730218723,
+      "p": 0.35089952601512814,
+      "t": 1.844,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 15
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.4661391610297025,
+      "p": 0.47794559261762726,
+      "t": 1.846,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 10
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.476066042629011,
+      "p": 0.633774835501052,
+      "t": 1.849,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 5
+    },
+    {
+      "kind": "spend",
+      "n": 5,
+      "m": 5.496635194566315,
+      "p": 0.3802359415916727,
+      "t": 1.851,
+      "alpha_min": 0.0,
+      "alpha_max": 10.0,
+      "remaining_after": 0
+    }
+  ]
+}
