@@ -2,6 +2,10 @@
 
 Blended Intensive Programme, Politecnico di Torino, 7–11 September 2026.
 
+| | |
+|---|---|
+| **Airfoil parametrization examples** | [Open in Colab](https://colab.research.google.com/github/ArnauMiro/BIP-Torino-practical/blob/master/L1_airfoils.ipynb) |
+
 ## Part 1. From Airfoil Geometry to Lift and Drag
 
 You have a budget of **2000 aerodynamic evaluations** and four design variables. Everything you build this afternoon is bounded by how you spend them.
@@ -14,8 +18,8 @@ No installation. Any Google account works, use a personal or a university accoun
 
 | | |
 |---|---|
-| **Part I — generating the data** | [Open in Colab](https://colab.research.google.com/github/ArnauMiro/BIP-Torino-practical/blob/main/P1_part1_data_generation.ipynb) |
-| **Part II — training the surrogate** | [Open in Colab](https://colab.research.google.com/github/ArnauMiro/BIP-Torino-practical/blob/main/P1_part2_training.ipynb) |
+| **Part I — generating the data** | [Open in Colab](https://colab.research.google.com/github/ArnauMiro/BIP-Torino-practical/blob/master/P1_part1_data_generation.ipynb) |
+| **Part II — training the surrogate** | [Open in Colab](https://colab.research.google.com/github/ArnauMiro/BIP-Torino-practical/blob/master/P1_part2_training.ipynb) |
 
 First cell of each notebook pulls the module and installs the dependencies:
 
@@ -108,7 +112,7 @@ Then you check the answer against a better model, and find out whether your surr
 
 | | |
 |---|---|
-| **Practical 3 — training the designer** | [Open in Colab](https://colab.research.google.com/github/ArnauMiro/BIP-Torino-practical/blob/main/P3_student.ipynb) |
+| **Practical 3 — training the designer** | [Open in Colab](https://colab.research.google.com/github/ArnauMiro/BIP-Torino-practical/blob/master/P3_student.ipynb) |
 
 Same first cell as part 1:
 
